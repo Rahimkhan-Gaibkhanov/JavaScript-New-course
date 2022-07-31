@@ -1,19 +1,11 @@
     "use strict";
 
-    // Задача 3
+    // №1
 
-    // Переделайте этот код так, чтобы в нем использовались описанные сокращенные операции:
+    // Создайте строку с вашем именем и строку с вашей фамилией. Выведите эти данные на экран.
 
-    // let num = 47;
-    // num = num + 7;
-    // num = num - 18;
-    // num = num * 10;
-    // num = num / 15;
-    // alert(num);
+    let name = 'Rahimkhan';
+    let surname = 'Gaibkhanov';
 
-    let num = 47;
-    num += 7;
-    num -= 18;
-    num *= 10;
-    num /= 15;
-    alert(num);
+    alert(name);
+    alert(surname);
