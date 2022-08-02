@@ -1,45 +1,38 @@
     "use strict";
 
-    // Задача 1
+    // №1
 
-    // Дан следующий массив:
+    // Дана переменная. Выведите в консоль ее значение.
 
-    // let arr = ['a', 'b', 'c'];
-    // Дана также переменная:
+    let name = 'Rahimkhan';
 
-    // let key = 2;
-    // Выведите на экран элемент, ключ которого хранится в переменной key.
+    console.log(name);
 
-    let arr = ['a', 'b', 'c'];
-    let key = 2;
+    // №2
 
-    console.log(arr[key]);
+    // Даны три переменные. Выведите в консоль их значения.
 
-    // Задача 2
+    let surname = 'Gaibkhanov';
+    let patronymic = 'Vaqifovic';
 
-    // Дан следующий массив:
+    console.log(name, surname, patronymic);
 
-    // let arr = [1, 2, 3, 4, 5];
-    // Даны также переменные:
+    // №3
 
-    // let key1 = 1;
-    // let key2 = 2;
-    // Найдите сумму элементов, ключи которых хранятся в наших переменных.
+    // Выведите в консоль все известные вам типы данных. Посмотрите, чем отличается их цвет.
 
-    let arrOne = [1, 2, 3, 4, 5];
-    let key1 = 1;
-    let key2 = 2;
+    // console.log(typeof (''), typeof (0), typeof (true), typeof (undefined), typeof (NaN));
+    console.log('str', 'Type String');
+    console.log(3 + 56, 'Type Number');
+    console.log(true, 'Type Boolean');
+    console.log(false, 'Type Boolean');
+    let undefine;
+    console.log(undefine, 'Type Undefined');
+    console.log(null, 'Type Null');
+    console.log('str' * 3, 'Type NaN');
 
-    console.log(arrOne[key1] + arrOne[key2]);
+    // №4
 
-    // Задача 3
+    // Сознательно допустите ошибку в вашем коде. Убедитесь, что ошибка появляется в консоли. Определите, в какой строке кода случилась ошибка.
 
-    // Дан следующий объект:
-
-    // let obj = {'a': 1, 'b': 2, 'c': 3};
-    // Дана переменная key, в которой хранится один из ключей нашего объекта. Выведите с помощью переменной key1 соответствующий элемент объекта.
-
-    let obj = {'a': 1, 'b': 2, 'c': 3};
-    let key3 = 'c';
-
-    console.log(obj[key3]);
+    console.log( 'string );
