@@ -1,69 +1,164 @@
     "use strict";
 
-    // Задача 1
+    // №1
 
-    // В переменной month лежит какое-то число из интервала от 1 до 12. Определите в какую пору года попадает этот месяц (зима, лето, весна, осень).
+    // Код должен находить сумму чисел:
 
-    let month = 11;
+    // let num1 = 1;
+    // let num2 = 2;
+    // console.log('сумма: ' + num1 + num2); 
 
-    if (month >= 1 && month <= 3) {
-        console.log('Spring');
-    }
-    if (month >= 4 && month <= 6) {
-        console.log('Summer');
-    }
-    if (month >= 7 && month <= 9) {
-        console.log('Autumn');
-    }
-    if (month >= 10 && month <= 12) {
-        console.log('Winter');
-    }
+    let num1 = 1;
+    let num2 = 2;
+    let num3 = num1 + num2;
+    console.log('сумма: ' + num3); 
 
-    // Задача 2
+    // №2
 
-    // Дана строка, состоящая из символов, например, 'abcde'. Проверьте, что первым символом этой строки является буква 'a'. Если это так - выведите 'да', в противном случае выведите 'нет'.
+    // Код должен находить сумму чисел:
 
-    let str = 'abcde';
+    // let a = 1;
+    // let b = 2;
+    // console.log(a + b + c);
 
-    if (str[0] == 'a') {
-        console.log('Да');
-    } else {
-        console.log('Нет');
-    }
 
-    // Задача 3
+    let a = 1;
+    let b = 2;
+    console.log(a + b);
 
-    // Дано число, например, 12345. Проверьте, что первым символом этого числа является цифра 1, 2 или 3. Если это так - выведите 'да', в противном случае выведите 'нет'.
+    // №3
 
-    let num = 12345;
-    let num1 = String(num);
+    // Код должен находить сумму цифр числа:
 
-    if (num1[0] == 1 || num1[0] == 2 || num1[0] == 3) {
-        console.log('Да');
-    } else {
-        console.log('Нет');
-    }
+    // let num = '123';
+    // let sum = num[0] + num[1] + num[2];
+    // console.log(sum);
 
-    // Задача 4
+    let num = '123';
+    let sum = Number(num[0]) + Number(num[1]) + Number(num[2]);
+    console.log(sum);
 
-    // Дано трехзначное число. Найдите сумму цифр этого числа.
+    // №4
 
-    let num2 = 475;
-    let num3 = String(num2);
+    // Код должен вывести первую цифру числа:
 
-    console.log(Number(num3[0]) + Number(num3[1]) + Number(num3[2]));
+    // let num4 = 123;
+    // console.log(num4[0]);
 
-    // Задача 5
 
-    // Дано число из 6-ти цифр. Проверьте, что сумма первых трех цифр равняется сумме вторых трех цифр. Если это так - выведите 'да', в противном случае выведите 'нет'.
+    let num4 = 123;
+    let strNum = String(num4);
+    console.log(Number(strNum[0])); // Number
+    console.log(strNum[0]);  //String
 
-    let num4 = 376376;
-    let num5 = String(num4);
-    let num6 = Number(num5[0]) + Number(num5[1]) + Number(num5[2]);
-    let num7 = Number(num5[3]) + Number(num5[4]) + Number(num5[5]);
+    // №5
 
-    if (num6 == num7) {
-        console.log('Да');
-    } else {
-        console.log('Нет');
-    }
+    // Код должен был вывести в консоль число 1, но выводит 0:
+
+    // let a1 = 0;
+    // console.log(a1++);
+
+    let a1 = 0;
+    // console.log(a1++);
+    // console.log(a1);
+    console.log(++a1);
+
+    // №6
+
+    // Код должен вывести количество цифр в числе:
+
+    // let num5 = 123;
+    // console.log(num5.length);
+
+    let num5 = 123;
+    console.log(String(num5).length);
+
+    // №7
+
+    // Код должен найти количество секунд в сутках:
+
+    // let a2 = 24 / 60 / 60;
+    // console.log(a2);
+
+    let a2 = 24 / 60 / 60;
+    console.log(a2);
+
+    // №8
+
+    // Код должен вывести количество цифр в числе:
+
+    // let num6 = 123;
+    // let str = String(num6);
+    // console.log(num6.length);
+
+    let num6 = 123;
+    let str = String(num6);
+    console.log(str.length);
+
+    // №9
+
+    // Код должен вывести последнюю цифру числа:
+
+    // let num7 = 129;
+    // let str1 = String(num7);
+    // console.log(num7[num7.length]);
+
+    let num7 = 129;
+    let str1 = String(num7);
+    console.log(str1[str1.length - 1]);
+
+    // №1
+
+    // Код должен вывести количество цифр в числе:
+
+    // let num8 = 123;
+    // let str2 = String(num8);
+    // console.log(str2.lenght);
+
+    let num8 = 123;
+    let str2 = String(num8);
+    console.log(str2.length);
+
+    // №11
+
+    // Код должен вывести последнюю цифру числа:
+
+    // let num9 = 123;
+    // let str3 = String(num9);
+    // console.log(str3[str3.length]);
+
+    let num9 = 123;
+    let str3 = String(num9);
+    console.log(str3[str3.length - 1]);
+
+    // №12
+
+    // Код должен найти сумму чисел:
+
+    // let a3 = '123';
+    // let b3 = '456';
+    // let s3 = Number(a3) + String(b3);
+
+    // console.log(s3);
+
+    let a3 = '123';
+    let b3 = '456';
+    let s3 = Number(a3) + Number(b3);
+
+    console.log(s3);
+
+    // №13
+
+    // Код должен найти сумму чисел:
+
+    // let aaa = 1;
+    // let bbb = 2;
+    // let ccc = 3;
+
+    // console.log(aaa + bbb + ссс);
+
+    let aaa = 1;
+    let bbb = 2;
+    let ccc = 3;
+
+    console.log(aaa + bbb + ccc);
